@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="0 Infinity - A place for mysterious subjects and knowledge">
+  <title>0 Infinity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="img/logo.png" alt="logo">
+        <h2>0 Infinity ∞</h2>
+      </div>
+      <!-- Hamburger Icon for Mobile -->
+      <div class="hamburger" id="hamburger-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#subjects">Subjects</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+        <li><a class="nav-cta-button" href="#contact">Contact</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Explore the Mysteries of the World</h2>
+      <p>Learn about mysterious subjects in simple words, with images, videos, and interactive content.</p>
+      <a href="#subjects" class="cta-button">Start Exploring</a>
+    </div>
+  </section>
+
+  <!-- Subjects Section -->
+  <section id="subjects" class="subjects">
+    <h2>Top Mysterious Subjects</h2>
+
+    <!-- Search Bar Inside Subjects Section -->
+    <div class="search-bar-container">
+      <div class="search-wrapper">
+        <input type="text" id="search-bar" class="search-bar" placeholder="Search Mystery" autocomplete="off">
+        <button class="search-clear" id="clear-button" style="display:none;">×</button>
+        <div id="suggestions" class="suggestions-list"></div>
+        <button class="search-icon" id="search-icon">🔎</button>
+      </div>
+    </div>
+
+    <!-- Subject Cards -->
+    <div class="subject-cards">
+      <div class="subject-card">
+        <h3>Pyramids</h3>
+        <p>The mysteries behind the ancient pyramids and their construction.</p>
+      </div>
+      <div class="subject-card">
+        <h3>Aliens</h3>
+        <p>Exploring theories and evidence of extraterrestrial life.</p>
+      </div>
+      <div class="subject-card">
+        <h3>Time Travel</h3>
+        <p>Theories and concepts about traveling through time.</p>
+      </div>
+      <div class="subject-card">
+        <h3>Black Holes</h3>
+        <p>Exploring the nature and mystery of black holes in space.</p>
+      </div>
+      <div class="subject-card">
+        <h3>Ghosts</h3>
+        <p>The supernatural and unexplained phenomena of ghosts.</p>
+      </div>
+      <div class="subject-card">
+        <h3>Atlantis</h3>
+        <p>The mystery of the lost city of Atlantis.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Popup -->
+  <div id="popup-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-button" id="close-modal">&times;</span>
+      <div id="modal-body">
+        <!-- Dynamic Content will load here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer id="contact">
+    <p>© 2024 0 Infinity. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Link to Script.js -->
+  <script src="script.js"></script>
+</body>
+</html>
+
